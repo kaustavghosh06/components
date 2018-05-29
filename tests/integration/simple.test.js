@@ -60,7 +60,7 @@ describe('Integration Test - Simple', () => {
       expect(stateFileContent.$.serviceId).not.toBeFalsy()
       const myRole = stateFileContent['simple:myRole']
       const myRoleObjectKeys = Object.keys(myRole)
-      expect(myRoleObjectKeys.length).toEqual(6)
+      expect(myRoleObjectKeys.length).toEqual(7)
       expect(myRole).toHaveProperty('instanceId')
       expect(myRole).toHaveProperty('type', 'tests-integration-iam-mock')
       expect(myRole).toHaveProperty('internallyManaged', false)
@@ -74,7 +74,7 @@ describe('Integration Test - Simple', () => {
       expect(myRole.instanceId).not.toBeFalsy()
       const myFunction = stateFileContent['simple:myFunction']
       const myFunctionObjectKeys = Object.keys(myFunction)
-      expect(myFunctionObjectKeys.length).toEqual(6)
+      expect(myFunctionObjectKeys.length).toEqual(7)
       expect(myFunction).toHaveProperty('instanceId')
       expect(myFunction).toHaveProperty('type', 'tests-integration-function-mock')
       expect(myFunction).toHaveProperty('internallyManaged', false)
@@ -113,7 +113,7 @@ describe('Integration Test - Simple', () => {
       expect(stateFileContent.$.serviceId).not.toBeFalsy()
       const myRole = stateFileContent['simple:myRole']
       const myRoleObjectKeys = Object.keys(myRole)
-      expect(myRoleObjectKeys.length).toEqual(6)
+      expect(myRoleObjectKeys.length).toEqual(7)
       expect(myRole).toHaveProperty('instanceId')
       expect(myRole).toHaveProperty('type', 'tests-integration-iam-mock')
       expect(myRole).toHaveProperty('internallyManaged', false)
@@ -127,7 +127,7 @@ describe('Integration Test - Simple', () => {
       expect(myRole.instanceId).not.toBeFalsy()
       const myFunction = stateFileContent['simple:myFunction']
       const myFunctionObjectKeys = Object.keys(myFunction)
-      expect(myFunctionObjectKeys.length).toEqual(6)
+      expect(myFunctionObjectKeys.length).toEqual(7)
       expect(myFunction).toHaveProperty('instanceId')
       expect(myFunction).toHaveProperty('type', 'tests-integration-function-mock')
       expect(myFunction).toHaveProperty('internallyManaged', false)
@@ -166,7 +166,7 @@ describe('Integration Test - Simple', () => {
       expect(stateFileContent.$.serviceId).not.toBeFalsy()
       const myRole = stateFileContent['simple:myRole']
       const myRoleObjectKeys = Object.keys(myRole)
-      expect(myRoleObjectKeys.length).toEqual(6)
+      expect(myRoleObjectKeys.length).toEqual(7)
       expect(myRole).toHaveProperty('instanceId')
       expect(myRole).toHaveProperty('type', 'tests-integration-iam-mock')
       expect(myRole).toHaveProperty('internallyManaged', false)
@@ -180,7 +180,7 @@ describe('Integration Test - Simple', () => {
       expect(myRole.instanceId).not.toBeFalsy()
       const myFunction = stateFileContent['simple:myFunction']
       const myFunctionObjectKeys = Object.keys(myFunction)
-      expect(myFunctionObjectKeys.length).toEqual(6)
+      expect(myFunctionObjectKeys.length).toEqual(7)
       expect(myFunction).toHaveProperty('instanceId')
       expect(myFunction).toHaveProperty('type', 'tests-integration-function-mock')
       expect(myFunction).toHaveProperty('internallyManaged', false)
@@ -226,7 +226,7 @@ describe('Integration Test - Simple', () => {
       expect(stateFileContent.$.serviceId).not.toBeFalsy()
       const myRole = stateFileContent['simple:myRole']
       const myRoleObjectKeys = Object.keys(myRole)
-      expect(myRoleObjectKeys.length).toEqual(6)
+      expect(myRoleObjectKeys.length).toEqual(7)
       expect(myRole).toHaveProperty('instanceId')
       expect(myRole).toHaveProperty('type', 'tests-integration-iam-mock')
       expect(myRole).toHaveProperty('internallyManaged', false)
@@ -240,7 +240,7 @@ describe('Integration Test - Simple', () => {
       expect(myRole.instanceId).not.toBeFalsy()
       const myFunction = stateFileContent['simple:myFunction']
       const myFunctionObjectKeys = Object.keys(myFunction)
-      expect(myFunctionObjectKeys.length).toEqual(6)
+      expect(myFunctionObjectKeys.length).toEqual(7)
       expect(myFunction).toHaveProperty('instanceId')
       expect(myFunction).toHaveProperty('type', 'tests-integration-function-mock')
       expect(myFunction).toHaveProperty('internallyManaged', false)

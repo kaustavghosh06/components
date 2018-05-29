@@ -142,6 +142,7 @@ async function remove(inputs, context) {
     }
   }
   context.saveState(outputs)
+  context.setOutputs(outputs)
   return outputs
 }
 
